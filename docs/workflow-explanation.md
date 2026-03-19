@@ -243,11 +243,3 @@ Webhook → Spam Detection → Check Spam
 | Jira | Ticket creation for urgent issues | Cloud API credentials |
 | SMTP | Confirmation emails | SMTP server details |
 ```
-
-This documentation now perfectly matches your actual workflow structure, with all nodes and connections properly explained. The flow shows:
-- Spam detection routing to dead letter
-- Duplicate checking before processing
-- Enrichment logic from email domains
-- Urgency-based branching (Slack+Jira vs Email)
-- Daily digest with scheduled execution
-- Dead letter queue for failures
