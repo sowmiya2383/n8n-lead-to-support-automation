@@ -242,4 +242,3 @@ Webhook → Spam Detection → Check Spam
 | Slack | Alerts and daily digest | OAuth2 |
 | Jira | Ticket creation for urgent issues | Cloud API credentials |
 | SMTP | Confirmation emails | SMTP server details |
-```
