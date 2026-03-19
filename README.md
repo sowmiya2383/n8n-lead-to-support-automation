@@ -10,9 +10,9 @@ An automated n8n workflow that converts inbound leads into a structured support 
 - **Webhook Trigger**: Accepts lead data via HTTP POST requests
 - **Validation**: Required field validation and spam detection
 - **Lead Enrichment**: Company name inference from email domains
-- **Storage**: Records stored in Google Sheets or Airtable
+- **Storage**: Records stored in Airtable
 - **Smart Routing**:
-  - High urgency → Slack alerts + Jira/Trello tickets
+  - High urgency → Slack alerts + Jira tickets
   - Normal urgency → Confirmation emails + status logging
 - **Daily Digest**: 6 PM summary of lead statistics
 - **Reliability**:
@@ -26,10 +26,9 @@ An automated n8n workflow that converts inbound leads into a structured support 
 
 - n8n instance (self-hosted or cloud)
 - Accounts for integrations (choose based on your setup):
-  - Google Sheets API access
   - Airtable API key
   - Slack webhook URL
-  - Jira/Trello API credentials
+  - Jira API credentials
   - Email service (SMTP or SendGrid)
 
 ### Installation
@@ -41,9 +40,9 @@ An automated n8n workflow that converts inbound leads into a structured support 
 
 2. **Configure credentials**
    Set up the following credentials in n8n:
-   - Google Sheets / Airtable
+   - Airtable
    - Slack
-   - Jira / Trello
+   - Jira
    - Email (SMTP)
    - HTTP Request (for dead-letter storage)
 
