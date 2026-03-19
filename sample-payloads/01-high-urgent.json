@@ -1,0 +1,8 @@
+{
+  "name": "John Smith",
+  "email": "john.smith@techcorp.com",
+  "company": "TechCorp Inc",
+  "message": "Production server is down, urgent assistance needed!",
+  "urgency": "high",
+  "product": "Cloud Platform"
+}
