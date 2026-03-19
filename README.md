@@ -48,26 +48,25 @@ An automated n8n workflow that converts inbound leads into a structured support 
    - HTTP Request (for dead-letter storage)
 
 3. **Environment Variables**
-   Create a `.env` file or set these in n8n:
+   set these in n8n:
    ```env
    # Storage
-   GOOGLE_SHEET_ID=your_sheet_id
-   AIRTABLE_BASE_ID=your_base_id
+   AIRTABLE_BASE_ID=app1Dyz2SNXDLS44P
    AIRTABLE_TABLE_NAME=Leads
    
    # Notifications
-   SLACK_WEBHOOK_URL=your_slack_webhook
-   JIRA_URL=your_jira_instance
-   JIRA_EMAIL=your_email
-   JIRA_API_TOKEN=your_token
-   JIRA_PROJECT_KEY=your_project_key
+   SLACK_WEBHOOK_URL=https://hooks.slack.com/services/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
+   JIRA_URL=https://sowmiya23.atlassian.net/
+   JIRA_EMAIL=sowmya.arun2383@gmail.com
+   JIRA_API_TOKEN=ATATT3xFfGF0Bc4-aqBAaOYucXnnXqViOmZsw4vrJ1ObvTIbzbEMOp6FAIPdAD_uyrLqDVYSEMLDuD6IZFLH50DgIRUKpUbICRoIxfKegjU0kGp7cqW0cO-Y4ms19p30hLzSLHPsi2RN-8e0L00JFvawHB7eRjt9I5FBCUPcT0rCId0wFHU3Vrk=5E1A5ADD
+   JIRA_PROJECT_KEY=KAN
    
    # Email
    SMTP_HOST=smtp.gmail.com
    SMTP_PORT=587
-   SMTP_USER=your_email@gmail.com
-   SMTP_PASS=your_app_password
-   EMAIL_FROM=support@yourcompany.com
+   SMTP_USER=sowmya.arun2383@gmail.com
+   SMTP_PASS=sowmya.arun2383@gmail.com
+   EMAIL_FROM=sowmya.arun2383@gmail.com
    
-   # Dead Letter Storage
-   DEAD_LETTER_WEBHOOK=your_dead_letter_endpoint
+   # Dead Letter Storage(Airtable)
+   DEAD_LETTER_WEBHOOK=FailedLeads
