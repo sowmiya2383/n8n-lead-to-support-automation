@@ -12,4 +12,4 @@ for filename in os.listdir(payloads_folder):
         print(f"Testing {filename}...")
         response = requests.post(webhook_url, json=payload)
         print(f"Status: {response.status_code}")
-        print("---")
+        print("---") 
